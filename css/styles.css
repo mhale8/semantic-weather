@@ -29020,3 +29020,6 @@ html.ios {
 *******************************/
 body {
   background: #22d3b8; }
+
+.centered {
+  width: 90%; }
