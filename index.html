@@ -2,73 +2,70 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Semantic Weather</title>
-    
-    
-  <!-- Semantic UI -->
-  <link rel="stylesheet" href="css/styles.css">
-
-  
-</head>
-<body>
-  
-  <main class="ui two column grid">  
-    
-    <!-- First Column -->    
-   <section class="column">
-      <div class="ui accordion">
-  <div class="active title">
-    <i class="dropdown icon"></i>
-    What is a dog?
-  </div>
-  <div class="active content">
-    <p>A dog is a type of domesticated animal. Known for its loyalty and faithfulness, it can be found as a welcome guest in many households across the world.</p>
-  </div>
-       <h1>Weather</h1>
-       
-   </section>
-   
-   <!-- Second Column -->
-   <section class="column">
-      
-      <div class="ui card">
-          <div class="image">
-              <img src="http://placehold.it/200x200" alt="">
-          </div>
-          <div class="content">
-              <h3 class="temp"></h3>
-              <h3 class="city">City</h3>
-
-          </div>
-          <div class="description">
-              <p>The weather is</p>
-          </div>
-          
-          
-          <!-- END OF CARD! --> 
-      </div>
-       
-   </section>
-</main>
-   
-   
-  
-    <!-- Scripts -->
-    
-    
-    <!-- jQuery -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <title>Semantic Weather App</title>
     
     <!-- Semantic UI -->
-    <script src="js/semantic.js"></script>
+    <link rel="stylesheet" href="css/styles.css">
     
-    <!-- Our Scripts -->
-    <script src="js/scripts.js"></script>
-    
-     <!-- Plugins -->
-     <script src="js/jquery.simpleWeather.min.js"></script>
+</head>
+<body>
+   
+   <main class="ui two column grid">
+       <section class="column">
+           <div class="ui styled accordion">
+              <div class="title">
+                <i class="dropdown icon"></i>
+                Mobile, Alabama
+              </div>
+              <div class="content">
+                <p class="transition hidden">Mobile is the county seat of Mobile County, Alabama, United States. The population within the city limits was 195,111 as of the 2010 United States Census,[9] making it the third most populous city in Alabama, the most populous in Mobile County, and the largest municipality on the Gulf Coast between New Orleans, Louisiana, and St. Petersburg, Florida.</p>
+              </div>
+              <div class="title">
+                <i class="dropdown icon"></i>
+                Boise, Idaho
+              </div>
+              <div class="content">
+                <p class="transition hidden">Boise is the capital and most populous city of the U.S. state of Idaho, as well as the county seat of Ada County. Located on the Boise River in southwestern Idaho, the population of Boise at the 2010 Census was 205,671, the 99th largest in the nation. Its estimated population in 2013 was 214,237.</p>
+              </div>
+              <div class="title">
+                <i class="dropdown icon"></i>
+                Maui, Hawaii
+              </div>
+              <div class="content">
+                <p class="transition visible">Maui is an island in the Central Pacific, part of the Hawaiian archipelago. Sprawling Haleakala National Park encompasses the island’s highest peak, volcanic Haleakala, as well as the pools and waterfalls of Ohe’o Gulch, accessed via scenic, winding Hana Highway. The island's 30 miles of beaches include golden-crescent Kapalua, sheltered from strong currents by lava-rock promontories.</p>
+              </div>
+            </div>
+       </section>       
+      
+      
+       <section class="column">
+           <div class="ui card">
+               <div class="image">
+                   <img src="http://placehold.it/200x200" alt="">
+               </div>
+               
+               <div class="content">
+                   <h3 class="city">City</h3>
+                   <h3 class="temp"></h3>
+               </div>
+               
+               <div class="description">
+                   <p>The weather is</p>
+               </div>
+            <!--   End of Card.  -->
+           </div>
+       </section>
+    </main>
 
-    
+   
+   <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!-- Semantic UI   -->
+    <script src="js/semantic.js"></script>
+    <!--  Plugin  -->
+    <script src="js/jquery.simpleWeather.min.js"></script>
+    <!-- Our Scripts --> 
+    <script src="js/scripts.js"></script>
     
 </body>
 </html>

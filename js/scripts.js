@@ -1,4 +1,4 @@
-// Get Weather
+// Scripts
 $.simpleWeather({
     location: 99004,
     unit: 'f',
@@ -8,9 +8,9 @@ $.simpleWeather({
       
       // Display
       $('.temp').text(weather.temp);
-      $('.city').text(weather.city);
-      $('.image img').attr('src', weather.image );
-      $('.description p').text('src', weather.text );
+      $('.city').text(weather.city); 
+      $('.image img').attr('src', weather.image);
+      $('.description p').text(weather.text);
       
     },
     error: function(error) {
@@ -20,7 +20,7 @@ $.simpleWeather({
   
   });
 
-// Go Accordian
+//Activate accordion
 $('.ui.accordion')
   .accordion()
 ;
